@@ -86,13 +86,13 @@ dmypy.json
 .pyre/
 
 # Project-specific
-*.csv
-*.xlsx
-!sample_data.csv
 .DS_Store
 Thumbs.db
 
-# Large data files
+# Large data files (exclude raw data, but keep processed results)
 data/raw/
-data/processed/
 temp/
+
+# Allow results files to be committed
+!results/**/*.csv
+!results/**/*.png
