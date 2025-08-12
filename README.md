@@ -26,9 +26,6 @@ Automobile_Data_Wrangling_Analysis/
 ├── notebooks/                     # Jupyter notebooks
 │   └── automobile_analysis.ipynb
 │
-├── data/                         # Data files (generated)
-│   └── raw/                      # Raw data cache
-│
 ├── results/                      # Analysis outputs
 │   ├── visualizations/           # Charts and plots
 │   ├── processed_data/           # Cleaned datasets
@@ -38,6 +35,7 @@ Automobile_Data_Wrangling_Analysis/
 │   └── README.md                 # Detailed documentation
 │
 ├── config/                       # Configuration files
+│   └── analysis_config.py        # Analysis settings
 │
 ├── requirements.txt              # Dependencies
 ├── .gitignore                   # Git ignore rules
